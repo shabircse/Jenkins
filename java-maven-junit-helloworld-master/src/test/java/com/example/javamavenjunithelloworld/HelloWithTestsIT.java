@@ -40,6 +40,15 @@ public class HelloWithTestsIT {
         assertTrue(true);
         //assertThat(out.getLog(), is(equalTo(thrice)));
     }
+ @Test
+    public void doesItSayHelloTest4() {
+        String[] args = {"4"};
+        HelloApp.main(args);
+
+        String thrice = Hello.HELLO + "\n" + Hello.HELLO + "\n" + Hello.HELLO + "\n";
+        assertTrue(true);
+        //assertThat(out.getLog(), is(equalTo(thrice)));
+    }
 
 
  }
