@@ -42,12 +42,4 @@ public class HelloWithTestsIT {
     }
 
 
-     @Test
-    public void doesItSayHelloTest3() {
-        String[] args = {"4"};
-        HelloApp.main(args);
-
-        String thrice = Hello.HELLO + "\n" + Hello.HELLO + "\n" + Hello.HELLO + "\n";
-        assertTrue(true);
-
-}
+ }
